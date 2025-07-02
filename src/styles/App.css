@@ -1,1 +1,26 @@
+body{
+    place-content: center;
+}
 
+.task{
+    
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.task li{
+    list-style: none;
+}
+
+.task button{
+    padding: 10px;
+    font-weight: 500;
+    color: red;
+    border: transparent;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(153, 153, 228);
+}
