@@ -28,7 +28,7 @@ const App = () => {
           onChange={(e) => setTask(e.target.value)}
         />
         <button onClick={handleAddToDo}>Add Todo</button>
-        <div>
+        <ul>
           {todoList.length >0 && 
             todoList.map(item => (
               <div className="task">
@@ -40,7 +40,7 @@ const App = () => {
               </div>
             ))
           }
-        </div>
+        </ul>
     </div>
   )
 }
